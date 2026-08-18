@@ -1,0 +1,3 @@
+How do you write programs that are maintainable, readable, and adaptable?
+
+I try to keep my code organized and reusable so that it is easier to maintain and make changes to later on. A good example of this was the CRUD Python module I created in Project One. Instead of putting all my MongoDB connection and database functionality directly into the dashboard, I created an AnimalShelter class that handled those operations separately. I was then able to import and reuse that module in Project Two. This saved me from having to recreate my database functionality and helped keep the dashboard code more organized. In the future, I could reuse this same approach for other applications that need to interact with MongoDB and modify the module based on the needs of the project.
