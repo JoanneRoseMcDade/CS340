@@ -1,3 +1,11 @@
 How do you write programs that are maintainable, readable, and adaptable?
 
 I try to keep my code organized and reusable so that it is easier to maintain and make changes to later on. A good example of this was the CRUD Python module I created in Project One. Instead of putting all my MongoDB connection and database functionality directly into the dashboard, I created an AnimalShelter class that handled those operations separately. I was then able to import and reuse that module in Project Two. This saved me from having to recreate my database functionality and helped keep the dashboard code more organized. In the future, I could reuse this same approach for other applications that need to interact with MongoDB and modify the module based on the needs of the project.
+
+How do you approach a problem as a computer scientist?
+
+I approach larger programming problems by breaking the requirements into smaller steps and working through them one at a time. For Project Two, I first made sure I could connect to MongoDB and retrieve the data. From there, I worked through the data table, rescue filters, queries, pie chart, and geolocation map before testing everything together. This project was different from some of my previous assignments because I had to think more about what the client actually needed instead of only making sure my code worked. In the future, I would continue breaking down client requirements into smaller technical tasks, testing each part as I go, and then testing the completed application to make sure everything works together correctly.
+
+What do computer scientists do, and why does it matter?
+
+Computer scientists use technology and problem-solving skills to create solutions that make tasks and information easier to manage and utilize. An important part of this is not only creating something that works, but also make sure it is useful to the end user. For Grazioso Salvare, my dashboard makes it easier to identify dogs that meet specific search and rescue requirements without manually searching through a large amount of data. The filters, data table, pie chart, and geolocation map give the client different ways to quickly view and understand the results. This project helped me see how programming and database development can be used to solve real-world problems.
